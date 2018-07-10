@@ -4,7 +4,7 @@
 #
 Name     : asv
 Version  : 0.2.1
-Release  : 1
+Release  : 2
 URL      : https://github.com/airspeed-velocity/asv/archive/v0.2.1.tar.gz
 Source0  : https://github.com/airspeed-velocity/asv/archive/v0.2.1.tar.gz
 Summary  : No detailed summary available
