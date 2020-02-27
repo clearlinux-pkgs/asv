@@ -4,10 +4,10 @@
 #
 Name     : asv
 Version  : 0.4.1
-Release  : 16
+Release  : 17
 URL      : https://github.com/airspeed-velocity/asv/archive/v0.4.1/asv-0.4.1.tar.gz
 Source0  : https://github.com/airspeed-velocity/asv/archive/v0.4.1/asv-0.4.1.tar.gz
-Summary  : No detailed summary available
+Summary  : Airspeed Velocity: A simple Python history benchmarking tool
 Group    : Development/Tools
 License  : BSD-3-Clause
 Requires: asv-bin = %{version}-%{release}
@@ -58,6 +58,7 @@ python components for the asv package.
 Summary: python3 components for the asv package.
 Group: Default
 Requires: python3-core
+Provides: pypi(asv)
 
 %description python3
 python3 components for the asv package.
@@ -72,7 +73,8 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1579205357
+export SOURCE_DATE_EPOCH=1582847168
+# -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
