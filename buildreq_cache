@@ -1,6 +1,4 @@
-0.4.1
+0.4.2
 pip
 pytest
 pytest-python
-six
-six-python
