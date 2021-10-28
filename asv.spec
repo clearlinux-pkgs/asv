@@ -4,7 +4,7 @@
 #
 Name     : asv
 Version  : 0.4.2
-Release  : 29
+Release  : 30
 URL      : https://github.com/airspeed-velocity/asv/archive/v0.4.2/asv-0.4.2.tar.gz
 Source0  : https://github.com/airspeed-velocity/asv/archive/v0.4.2/asv-0.4.2.tar.gz
 Summary  : Airspeed Velocity: A simple Python history benchmarking tool
